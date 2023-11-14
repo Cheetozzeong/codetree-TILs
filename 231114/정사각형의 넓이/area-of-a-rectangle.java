@@ -7,6 +7,7 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
 
         if(n < 5){
+            System.out.println(n*n);
             System.out.print("tiny"); 
             return;
         } else {
