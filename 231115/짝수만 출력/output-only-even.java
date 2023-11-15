@@ -11,7 +11,7 @@ public class Main {
         while(true){
             if(a==b) break;
             else {
-                if(a%2 == 0) System.out.print(a);
+                if(a%2 == 0) System.out.print(a+" ");
             }
             a++;
         }
