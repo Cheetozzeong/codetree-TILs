@@ -5,12 +5,11 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
-
+        int a = Integer.parseInt(st.nextToken());
 
         for(int i = b; i>=a; i--){
-            System.out.println(i+" ");
+            if(i%2 == 1) System.out.print(i+" ");
         }
     }
 }
