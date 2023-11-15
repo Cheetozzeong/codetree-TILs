@@ -9,7 +9,7 @@ public class Main {
         int b = Integer.parseInt(st.nextToken());
 
         while(true){
-            if(a==b) break;
+            if(a>b) break;
             else {
                 if(a%2 == 0) System.out.print(a+" ");
             }
